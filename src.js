@@ -1,26 +1,51 @@
-var i = 5;
+var rettime;
 
-function timer(){
-
+function timer(i){
+	var minutes = document.getElementById("minutes");
+	var seconds = document.getElementById("seconds");
+	var message = document.getElementById("message");
 	var min = [1,5,10];
 	timemilliseconds = min.map(function(x){
 		return x*60*1000;
 	})
-		var y = onTime();
-		console.log(y);
-		return y
-	}
-
-	function onTime(){
-		if(i < 0){
-			console.log("times up!! i = ",i+1);
+	//var i = t;
+	var obj = {
+		onTime: function(){
+			i--;
+			if(i < 0){
+				message.innerHTML = "Dude Times Up!!";
+				document.getElementById("start").disabled = false;
+			}else{
+				minutes.innerHTML = i;
+				console.log("i= ",i);
+				rettime = setTimeout(obj.onTime, 1000);
+			}
+		},
+		_time: function (){
 			return i;
-		}else{
-			console.log("i= ",i);
-			i = i-1;
-			setTimeout(onTime, 1000);
 		}
-	//return i;
 	}
-	//var i = 10;
-	//setTimeout(function(){console.log(i);}, 5000);
+	return obj;
+}
+
+function stop(){
+	clearTimeout(rettime);
+	document.getElementById("message").innerHTML = "Let's Get Started";
+	document.getElementById("start").disabled = false;
+}
+
+function go(){
+	var t = document.getElementById("points").value;
+	document.getElementById("start").disabled = true;
+	timer(t).onTime();
+}
+
+function pause(){
+	console.log("start work");
+	console.log(minutes,"  ",seconds,"  ",message);
+}
+
+//
+// function start(){
+//
+// }

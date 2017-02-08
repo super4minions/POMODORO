@@ -7,10 +7,28 @@
    <body>
      <div id="qunit"></div>
      <script type="text/javascript" src="https://code.jquery.com/qunit/qunit-1.18.0.js"></script>
-     <script type="text/javascript" src="src.js"></script>
      <script type="text/javascript" src="test.js"></script>
+     <div id="message">Let's Get Started</div>
+
+      <div id="timer">
+        <span id="minutes">25</span>
+        <span id="middle">:</span>
+        <span id="seconds">00</span>
+      </div>
+
+      <div id="buttons">
+        <button id="start" onclick="go(); return false;">Start</button>
+        <button id="stop"  onclick="stop()">Stop</button>
+        <button id="pause" onclick="pause()">Pause</button>
+        <button id="reset">Reset</button>
+      </div>
+      <div id="input">
+        <input name="points" id="points" value="1" min="1" max="25" data-type="range" type="number">
+    </div>
+      <div id="test"></div>
    </body>
-   </html>
-
-
-
+   <script>
+        document.getElementById("points").value = "1";
+    </script>
+    <script type="text/javascript" src="src.js"></script>
+</html>
