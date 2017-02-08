@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var rettime;
 
 function timer(i){
@@ -49,3 +50,30 @@ function pause(){
 // function start(){
 //
 // }
+=======
+function timer() {
+
+    var min = [1, 5, 10];
+    timemilliseconds = min.map(function(x) {
+        return x * 60 * 1000;
+    })
+
+    var i = 5;
+    var obj = {
+        onTime: function() {
+            i--;
+            if (i < 0) {
+                console.log("times up!!");
+            } else {
+                console.log("i= ", i);
+                setTimeout(obj.onTime, 1000);
+            }
+        },
+        _time: function() {
+            return i;
+        }
+
+    }
+    return obj;
+}
+>>>>>>> 7ab1a8cf3ddac94ef92e9d3f0b681b2b33f7f80c
