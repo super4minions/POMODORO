@@ -15,13 +15,12 @@ function timer(){
 				console.log("i= ",i);
 				setTimeout(obj.onTime, 1000);
 			}
-		//return obj
 		},
-		_time:i
+		_time: function (){
+			return i;
+		}
 
 	}
-
-	//var i = 10;
-	//setTimeout(function(){console.log(i);}, 5000); 
 	return obj;
 }
+
