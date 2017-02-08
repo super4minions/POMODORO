@@ -1,7 +1,8 @@
 # POMODORO.
 Basic ```time management``` tool. 
 
-###User stories.
+
+##User stories.
 As a client looking for a time management tool.
 > I want a timer that helps me ```Set``` 
 > a speceific interval of time.
@@ -22,7 +23,8 @@ As a client looking for a time management tool.
 > I want a timer that resets the countdown when
 > pressing the ```Reset``` button.
 
-###Process of building our client's Pomodoro.
+
+##Process of building our client's Pomodoro.
 1. Sketching out requirments/features.
 
 [![Sketch](https://s30.postimg.org/hq4mgi6b5/Scan_Feb_8_14_36.jpg)"Sketch"]
