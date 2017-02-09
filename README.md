@@ -40,9 +40,8 @@ _____
 >And againg we repeat the process again till we cover the required features
 >with proven "passing" tests.
 
-
- ## list of Tests conducted:
- _____
+## List of Tests.
+_____
 
 * Check if the function ```Timer``` exists.
 
