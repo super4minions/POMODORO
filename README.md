@@ -1,6 +1,6 @@
 # POMODORO Timer.
-``Basic time management [tool].``
-[tool]:https://super4minions.github.io/POMODORO/
+Basic time management [tool].
+[tool]: https://super4minions.github.io/POMODORO/
 
 _____
 
