@@ -54,7 +54,7 @@ function go(){
 
 function pause(){
     clearTimeout(rettime);
-    document.getElementById("start").disabled = true;
+    document.getElementById("start").disabled = false;
     document.getElementById("message").innerHTML = "Sorry .. this button is under construction!!"; 
 
 }
