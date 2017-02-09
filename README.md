@@ -24,7 +24,8 @@ _____
 > pressing the ```Reset``` button.
 
 
-##Process of building our client's Pomodoro.
+## Process of building our client's Pomodoro.
+
     1. Sketching out requirments/features.
 
 ![alt](https://s30.postimg.org/hq4mgi6b5/Scan_Feb_8_14_36.jpg)
@@ -39,7 +40,7 @@ _____
 >with proven "passing" tests.
 
 
- ### *list of Tests conducted:* 
+ ### list of Tests conducted:
 
 * Check if the function ```Timer``` exists.
 
