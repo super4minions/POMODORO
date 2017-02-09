@@ -85,5 +85,5 @@ test('Check if funtion timer/Start are working', function(t) {
 });
 ```
 
-  3. Building the ``HTML-index`` and ``CSS-style`` files 
+    3. Building the ``HTML-index`` and ``CSS-style`` files 
 and linking the Timer Script.
