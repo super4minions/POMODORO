@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+//<<<<<<< HEAD
 // var test = QUnit.test;
 //
 // test("Check if function timer exists",function(t){
@@ -46,7 +46,7 @@
 //
 // // >>>>>>> b1560420ee12483ca020f07a45ee9cc0fb79dc0e
 // });
-=======
+//=======
 var test = QUnit.test;
 
 test("Check if function timer exists", function(t) {
@@ -68,4 +68,4 @@ test('Check if funtion timer is working', function(t) {
     }, 5000);
 
 });
->>>>>>> 7ab1a8cf3ddac94ef92e9d3f0b681b2b33f7f80c
+//>>>>>>> 7ab1a8cf3ddac94ef92e9d3f0b681b2b33f7f80c

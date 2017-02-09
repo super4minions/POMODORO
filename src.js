@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+//<<<<<<< HEAD
 var rettime;
 
 function timer(i){
@@ -50,7 +50,7 @@ function pause(){
 // function start(){
 //
 // }
-=======
+//=======
 function timer() {
 
     var min = [1, 5, 10];
@@ -76,4 +76,4 @@ function timer() {
     }
     return obj;
 }
->>>>>>> 7ab1a8cf3ddac94ef92e9d3f0b681b2b33f7f80c
+//>>>>>>> 7ab1a8cf3ddac94ef92e9d3f0b681b2b33f7f80c
