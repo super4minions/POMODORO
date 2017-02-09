@@ -14,7 +14,7 @@ test('Check if funtion timer/Start are working', function(t) {
     a.onTime();
     var done = t.async(1);
     window.setTimeout(function() {
-        t.equal(a._time(), 0, 'Start Fun is work');
+        t.equal(a._time(), 0, 'Start Func works');
         done();
     }, 6000);
 });
@@ -24,7 +24,7 @@ test('Check if funtion Stop is working', function(t) {
     a.onTime();
     var done = t.async(1);
     window.setTimeout(function() {
-        t.equal(stop(), true, 'Stop Fun is work');
+        t.equal(stop(), true, 'Stop Func  works');
         done();
     }, 3000);
 });
