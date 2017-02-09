@@ -39,7 +39,7 @@ _____
 >with proven "passing" tests.
 
 
-** *list of Tests conducted:* **
+ ### *list of Tests conducted:* 
 
 * Check if the function ```Timer``` exists.
 
