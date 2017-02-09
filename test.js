@@ -27,4 +27,5 @@ test('Check if funtion Stop is working', function(t) {
         t.equal(stop(), true, 'Stop Fun is work');
         done();
     }, 3000);
+    reset();
 });
