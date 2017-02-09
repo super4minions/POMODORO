@@ -51,6 +51,9 @@ function go(){
 
 function pause(){
     clearTimeout(rettime);
+    document.getElementById("start").disabled = true;
+        document.getElementById("message").innerHTML = "Sorry .. this buton is under constraction!!";
+
 }
 
 function reset(){
