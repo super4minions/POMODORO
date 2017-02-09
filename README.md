@@ -25,6 +25,7 @@ _____
 
 
 ## Process of building our client's Pomodoro.
+_____
 
     1. Sketching out requirments/features.
 
@@ -40,7 +41,8 @@ _____
 >with proven "passing" tests.
 
 
- ### list of Tests conducted:
+ ## list of Tests conducted:
+ _____
 
 * Check if the function ```Timer``` exists.
 
@@ -82,4 +84,3 @@ test('Check if funtion timer/Start are working', function(t) {
 
 3. Building the ``HTML-index`` and ``CSS-style`` files 
 and linking the Timer Script.
-_____
