@@ -15,8 +15,11 @@ function timer(i){
                 seconds.innerHTML = '00';
             }else{
                 if (i%60 == 0){
-                            if ((i/60)-1 > 0){minutes.innerHTML = ((i/60) < 10 ? '0' : '') + ((i/60)-1);}
-                            else{minutes.innerHTML = '00';}
+                            if ((i/60)-1 > 0){
+                                minutes.innerHTML = ((i/60) < 10 ? '0' : '') + ((i/60)-1);
+                            }else{
+                                minutes.innerHTML = '00';
+                            }
                             s = 59;
                             seconds.innerHTML = (s < 10 ? '0' : '') + s--;
                         }else{
@@ -38,7 +41,7 @@ function stop(){
     clearTimeout(rettime);
     document.getElementById("message").innerHTML = "Let's Get Started";
     document.getElementById("start").disabled = false;
-        return true;
+    return true;
 }
 
 function go(){
@@ -52,7 +55,7 @@ function go(){
 function pause(){
     clearTimeout(rettime);
     document.getElementById("start").disabled = true;
-        document.getElementById("message").innerHTML = "Sorry .. this buton is under constraction!!";
+    document.getElementById("message").innerHTML = "Sorry .. this button is under construction!!"; 
 
 }
 
