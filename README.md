@@ -2,9 +2,11 @@
 Basic time management [tool].
 [tool]: https://super4minions.github.io/POMODORO/
 
-_____
+
 
 ## User stories.
+
+
     As a client looking for a time management tool.
 > I want a timer that helps me ```Set``` 
 > a specific interval of time.
@@ -27,7 +29,7 @@ _____
 
 
 ## Process of building our client's Pomodoro.
-_____
+
 
     1. Sketching out requirments/features.
 
@@ -43,7 +45,7 @@ _____
 >with proven "passing" tests.
 
 ## List of Tests.
-_____
+
 
 * Check if the function ```Timer``` exists.
 
